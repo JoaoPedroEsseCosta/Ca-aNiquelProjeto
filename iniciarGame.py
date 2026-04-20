@@ -12,12 +12,9 @@ def iniciarCn():
             acao = "jogar"
 
     if acao == "sair":
-        print("SAINDO...")
-        return
+        print("FECHANDO CAÇA NÍQUEL")
     elif acao == "jogar":
-        print("ENTRANDO...")
+        print("LIGANDO")
         IniciarJogo("CEREJA")
     else:
-        print("OPÇÃO INVÁLIDA")
-
-
+        print("OPÇÃO INVÁLIDADA")
