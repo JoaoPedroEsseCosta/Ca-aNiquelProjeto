@@ -13,6 +13,8 @@ def iniciar_cn():
 
     if acao == "sair":
         print("FECHANDO CAÇA NÍQUEL")
+        exit()
+
     elif acao == "jogar":
         iniciar_jogo()
     else:
